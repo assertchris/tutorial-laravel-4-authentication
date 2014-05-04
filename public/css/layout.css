@@ -1,0 +1,50 @@
+body {
+  margin      : 0;
+  padding     : 0 0 50px 0;
+  font-family : "Helvetica", "Arial";
+  font-size   : 14px;
+  line-height : 18px;
+  cursor      : default;
+}
+
+a {
+  color : #ef7c61;
+}
+
+.container {
+  width    : 960px;
+  position : relative;
+  margin   : 0 auto;
+}
+
+.header, .footer {
+  background  : #000;
+  line-height : 50px;
+  height      : 50px;
+  width       : 100%;
+  color       : #fff;
+}
+
+.header h1, .header a {
+  display : inline-block;
+}
+
+.header h1 {
+  margin      : 0;
+  font-weight : normal;
+}
+
+.footer {
+  position : absolute;
+  bottom   : 0;
+}
+
+.content {
+  padding : 25px 0;
+}
+
+label, input {
+  clear  : both;
+  float  : left;
+  margin : 5px 0;
+}
